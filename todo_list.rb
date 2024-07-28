@@ -32,7 +32,7 @@ class To_Do_list
     end
   end
 
-  private
+  
   
   def add_task
     
@@ -43,7 +43,7 @@ class To_Do_list
     print "Enter date and time in following format ('3rd Feb 2001 04:05:06 PM'): "
     date_time = gets.chomp
     @tasks << Task.new(title, details, date_time)
-    puts "Task added successfully!"
+    return "Task added successfully!"
   end
 
   def list_tasks
@@ -62,7 +62,7 @@ class To_Do_list
     del_number=gets.chomp
     
     @tasks.delete_at(del_number.to_i-1)
-    puts "DELETED!
+    return "DELETED!
     
     
     "
