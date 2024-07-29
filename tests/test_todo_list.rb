@@ -9,12 +9,12 @@ class TestToDoList < Minitest::Test
   end
 
   def test_addition
-    #task = To_Do_list.new
+    
     assert_equal "Task added successfully!", @todo_list.add_task, "Addition of task failed"
   end
 
   def test_deletion
-    #task = To_Do_list.new
+    
     assert_equal "DELETED!
     
     

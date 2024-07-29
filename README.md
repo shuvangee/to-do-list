@@ -15,3 +15,10 @@ TO DO LIST APP
 - asks user if they want to add or delete tasks
 - gives the user an option to see the list of tasks 
 - has an exit function 
+
+To run the program successfully:
+
+- running the app
+type 'ruby app.rb'
+
+- type 'ruby tests/test_todo_list.rb'
